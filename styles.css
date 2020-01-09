@@ -1,4 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 50px;
+}
+
+.badge {
+    padding: 0.4em;
+}
+
 .hLine {
     border-top: 5px solid #000000;
     width: 30%;
+}
+
+.copyLeft{
+    display: inline-block;
+    transform: rotateY(180deg);
 }
