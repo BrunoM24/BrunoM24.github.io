@@ -15,7 +15,23 @@ section {
     width: 30%;
 }
 
-.copyLeft{
+.copyLeft {
     display: inline-block;
     transform: rotateY(180deg);
+}
+
+#mainTitle {
+    animation: slideInLeft 1s ease both;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
