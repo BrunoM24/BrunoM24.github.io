@@ -20,18 +20,34 @@ section {
     transform: rotateY(180deg);
 }
 
-#mainTitle {
+#mainTitle, .sectionTitle {
     animation: slideInLeft 1s ease both;
 }
 
+.nav-item, .navbar-brand {
+    animation: slideInTop 1s;
+}
+
 @keyframes slideInLeft {
-    from {
+    0% {
         opacity: 0;
         transform: translateX(-100px);
     }
 
-    to {
+    100% {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@keyframes slideInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
