@@ -9,6 +9,7 @@ section {
 .badge {
     padding: 0.6em;
     margin-bottom: .75em;
+    cursor: default;
 }
 
 .hLine {
